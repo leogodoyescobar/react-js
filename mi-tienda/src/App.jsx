@@ -4,6 +4,8 @@
 
 import './App.css'
 import styles from "./app.module.css"
+import { HookUseState } from './components/HookUseState/HookUseState'
+import { NavBar } from './components/NavBar/NavBar'
 
 // function App() {
 //   const [count, setCount] = useState(0)
@@ -41,8 +43,9 @@ export const App = () => {
     <>
     <div className={`${styles.Border1 }`}>
     {/* <h1 className={styles.Titulo2} >Bienvenido a Tales Petshop</h1> */}
-      <h1 className={`${styles.Titulo} ${styles.FZT}`} >Bienvenido a Tales Petshop</h1>
-      
+    <h1 className={`${styles.Titulo} ${styles.FZT}`} >Bienvenido a Tales Petshop</h1>
+    <NavBar/>
+    <HookUseState/>
     </div>
     {/* <div>
       <ul className={`${styles.lista} ${styles.FZC}`}>
@@ -54,4 +57,3 @@ export const App = () => {
   )
 }
 
-export default App
