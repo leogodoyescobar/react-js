@@ -1,4 +1,24 @@
 .Titulo {
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
     color: rgb(204, 238, 252);
+}
+.Titulo2{
+    text-align: center;
+    color: red;
+}
+.FZT{
+    font-size: 30px;
+}
+.FZC{
+    font-size: 18px;
+}
+.Border1{
+    border-bottom: 1px solid ivory;
+    margin-bottom: 30px;
+}
+.lista{
+    text-align: center;
+    list-style: none;
 }

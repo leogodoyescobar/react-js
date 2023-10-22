@@ -39,7 +39,17 @@ import styles from "./app.module.css"
 export const App = () => {
   return (
     <>
-    <h1 className={styles.Titulo} >Bienvenido a Tales Petshop</h1>
+    <div className={`${styles.Border1 }`}>
+    {/* <h1 className={styles.Titulo2} >Bienvenido a Tales Petshop</h1> */}
+      <h1 className={`${styles.Titulo} ${styles.FZT}`} >Bienvenido a Tales Petshop</h1>
+      
+    </div>
+    {/* <div>
+      <ul className={`${styles.lista} ${styles.FZC}`}>
+        <li>test</li>
+        <li>test</li>
+      </ul>
+    </div> */}
     </>
   )
 }
