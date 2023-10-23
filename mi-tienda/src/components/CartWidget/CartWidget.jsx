@@ -1,8 +1,11 @@
+import React from 'react';
+import ImagenCarrito from "../images/Carrito-0.png";
+import styles from "./Cartwidget.module.css"
 
-export const CartWidget = ({message}) => {
+export const CartWidget = () => {
     return (
         <>
-        <div>CartWidget {message}</div>
+        <img src={ImagenCarrito} alt="Mi Imagen" className={`${styles.ImagenCarrito}`} />
         </>
     )
 }
