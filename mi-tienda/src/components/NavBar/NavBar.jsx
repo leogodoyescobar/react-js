@@ -8,10 +8,10 @@ export const NavBar = () => {
         <nav className={`${styles.Border1}`}>
             <ul className={` ${styles.ulFlex}`}>
                 <li><a href="" >Home</a></li>
-                <li>Perros</li>
-                <li>Gatos</li>
-                <li>Nosotros</li>
-                <li>Contacto</li>
+                <li><a href="" >Perros</a></li>
+                <li><a href="" >Gatos</a></li>
+                <li><a href="" >Nosotros</a></li>
+                <li><a href="" >Contacto</a></li>
                 <CartWidget/>
             </ul>            
         </nav>
